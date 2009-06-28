@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.m2eclipsebook</groupId>
-  <artifactId>m2ebook-parent</artifactId>
+  <artifactId>m2ebook-parent-de</artifactId>
   <version>0.4</version>
   <packaging>pom</packaging>
-  <name>Developing with Eclipse and Maven</name>
+  <name>Developing with Eclipse and Maven (German)</name>
   <description>A book about m2eclipse</description>
   <url>http://m2eclipse.sonatype.org/book</url>
   <organization>
@@ -32,9 +32,9 @@
     </developer>
   </developers>
   <modules>
-    <module>m2ebook-content</module>
-    <module>m2ebook-pdf</module>
-    <module>m2ebook-html</module>
+    <module>m2ebook-content-de</module>
+    <module>m2ebook-pdf-de</module>
+    <module>m2ebook-html-de</module>
 <!--    <module>m2ebook-site</module> -->
   </modules>
   
@@ -142,9 +142,9 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/sonatype/m2eclipse-book.git</connection>
-    <url>scm:git:git://github.com/sonatype/m2eclipse-book.git</url>
-    <developerConnection>scm:git:git://github.com/sonatype/m2eclipse-book.git</developerConnection>	
+    <connection>scm:git:git://github.com/sonatype/m2eclipse-book-de.git</connection>
+    <url>scm:git:git://github.com/sonatype/m2eclipse-book-de.git</url>
+    <developerConnection>scm:git:git://github.com/sonatype/m2eclipse-book-de.git</developerConnection>	
   </scm>
   <distributionManagement>
     <repository>

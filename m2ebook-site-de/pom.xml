@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
 	<groupId>org.sonatype.m2eclipsebook</groupId>
-	<artifactId>m2ebook-parent</artifactId>
+	<artifactId>m2ebook-parent-de</artifactId>
 	<version>0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>m2ebook-site</artifactId>
+  <artifactId>m2ebook-site-de</artifactId>
   <packaging>jar</packaging>
   <name>Developing with Eclipse and Maven</name>
   <description>A book about m2eclipse</description>
@@ -28,7 +28,7 @@
 		<version>${project.version}</version>
 	      </artifactItem>
 	    </artifactItems>
-	    <outputDirectory>${basedir}/target/site/reference</outputDirectory>
+	    <outputDirectory>${basedir}/target/site/reference_de</outputDirectory>
 	  </configuration>
 	</execution>
 <!--	<execution>
@@ -60,7 +60,7 @@
 	    <artifactItems>
 	      <artifactItem>
 		<groupId>${project.groupId}</groupId>
-		<artifactId>m2ebook-pdf</artifactId>
+		<artifactId>m2ebook-pdf-de</artifactId>
 		<version>${project.version}</version>
 		<type>pdf</type>
 	      </artifactItem>
